@@ -7,28 +7,12 @@ body {
     transition: background 0.5s ease;
 }
 
-/* Botón en la parte superior derecha */
-/* #change-bg-btn {
-    position: fixed;
-    margin-top: 3.5rem;
-    top: 20px;
-    right: 20px;
-    padding: 5px 10px;
-    font-size: 14px;
-    cursor: pointer;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 50px;
-    transition: background-color 0.3s;
-} */
-
 #change-bg-btn {
     position: fixed;
-    margin-top: 3.5rem;
+    margin-top: 3.2rem;
     top: 20px;
     right: 20px;
-    background-image: linear-gradient(to right, #000428 0%, #004e92  51%, #000428  100%);
+    background-image: linear-gradient(to right, #000109 0%, #0171d2  51%, #000428  100%);
     padding: 5px 10px;
     font-size: 12px;
     cursor: pointer;
@@ -42,15 +26,12 @@ body {
     display: block;
 }
 #change-bg-btn:hover {
-    background-position: right center; /* change the direction of the change here */
+    background-position: right center;
     color: #ffffff;
     text-decoration: none;
 }
 
-/* Contenedor del logo */
-
 .logo-container {
-    /* flex: 1; */
     margin-left: 5rem;
     margin-top: 15rem;
     display: flex;
@@ -63,10 +44,7 @@ body {
     height: auto;
 }
 
-/* Contenedor del texto */
-
 .text-container {
-    /* flex: 1; */
     margin-right: 7rem;
     width: 15rem;
     display: flex;
