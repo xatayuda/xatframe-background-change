@@ -1,4 +1,5 @@
 const backgrounds = [
+    'url("https://xatimg.com/image/moCx9J70xv6o.png")',
     'url("https://xatimg.com/image/tNsBVzTf3LXj.png")',
     'url("https://xatimg.com/image/yYCZWyv49PSs.png")',
     'linear-gradient(45deg,rgb(244, 114, 100),rgb(229, 180, 74))',
