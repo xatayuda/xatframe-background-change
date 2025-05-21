@@ -114,13 +114,13 @@ h2:hover span:nth-child(3){
     justify-content: center;
     width: fit-content;
     background-color: rgba(0, 0, 0, 0.3);
-    padding: 10px 30px;
+    padding: 5px 15px;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
 .digital-clock {
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: bold;
     /*text-align: center;*/
 }
