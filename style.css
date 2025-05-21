@@ -121,7 +121,7 @@ h2:hover span:nth-child(3){
 .clock-container:hover {
   background-image: url('https://cdn.dribbble.com/users/665790/screenshots/2197245/ny.gif');
   background-repeat: no-repeat;
-  height: 100px;
+  height: 80px;
   background-position: top;
   background-size: cover;
   color: #000;
