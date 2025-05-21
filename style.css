@@ -101,3 +101,37 @@ h2 span:nth-child(3){
 h2:hover span:nth-child(3){
     transform:translateY(-50%) scaleY(1);
 }
+
+
+/* AGREGANDO EL RELOJ */
+
+
+.clock-container {
+    justify-content: center;
+    width: fit-content;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 10px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.digital-clock {
+    font-size: 2em;
+    font-weight: bold;
+    /*text-align: center;*/
+}
+
+#time {
+    font-size: 1em; /* This will be the main time font size */
+}
+
+#seconds {
+    font-size: 0.6em; /* Smaller font size for seconds */
+    vertical-align: super; /* Adjust vertical alignment for smaller seconds */
+    margin-left: 5px; /* Space between minutes and seconds */
+}
+
+#ampm {
+    font-size: 0.6em;
+    margin-left: 0;
+}
