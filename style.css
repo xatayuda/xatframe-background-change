@@ -114,13 +114,21 @@ h2:hover span:nth-child(3){
     justify-content: center;
     width: fit-content;
     background-color: rgba(0, 0, 0, 0.3);
-    padding: 5px 15px;
+    padding: 7px 15px;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
+.clock-container:hover {
+  background-image: url('https://cdn.dribbble.com/users/665790/screenshots/2197245/ny.gif');
+  background-repeat: no-repeat;
+  height: 100px;
+  background-position: top;
+  background-size: cover;
+  color: #00000000;
+}
 
 .digital-clock {
-    font-size: 1.5em;
+    font-size: 1.1em;
     font-weight: bold;
     /*text-align: center;*/
 }
